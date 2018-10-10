@@ -22,6 +22,7 @@ class WebpackPwaManifest {
       short_name: shortName,
       orientation: 'portrait',
       display: 'standalone',
+      start_url: '.',
       inject: true,
       fingerprints: true,
       ios: false,
